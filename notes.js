@@ -19,7 +19,6 @@ const addNote = function (title, body) {
     
         saveNotes(notes)
         console.log(chalk.green.underline('New add note added with title \'' + title +'\''))
-        console.log(chalk.green.underline('and a body of: \'' + body +' \''))
     } else {
         console.log(chalk.yellow.underline('Note title taken, note was not added.'))
     }
