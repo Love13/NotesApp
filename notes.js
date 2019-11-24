@@ -32,7 +32,7 @@ const removeNote = function (title) {
     
     if (notes.length === noteToRemove.length) {
         console.log(chalk.yellow.underline('Note with title \"' + title + '\" was not found.'))
-
+ 
     } else {
         console.log(chalk.red.underline('Note with title \"' + title + '\" was removed.'))
     }
